@@ -1,0 +1,42 @@
+.meal {
+    display: flex;
+    justify-content: space-between;
+    margin: 1rem;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .meal h3 {
+    margin: 0 0 0.25rem 0;
+  }
+  
+  .description {
+    font-style: italic;
+  }
+  
+  .price {
+    margin-top: 0.25rem;
+    font-weight: bold;
+    color: #ad5502;
+    font-size: 1.25rem;
+  }
+
+  .button {
+    cursor: pointer;
+    font: inherit;
+    border: none;
+    background-color: #30cfff;
+    color: rgb(7, 8, 0);
+    padding: 0.55rem 2.5rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 20px;
+    font-weight: bold;
+  }
+  
+  .button:hover,
+  .button:active {
+    background-color: #ffa6dd;
+  }
+  
